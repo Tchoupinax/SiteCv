@@ -465,56 +465,6 @@ p {
     border-color: #316B90;
 }
 
-
-/*============ counter============/=*/
-
-.counter {
-
-    background-image: url("../images/counter-bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    background-position: 50% 50%;
-}
-
-.counter-overlay {
-
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-.counter-item i {
-
-    color: #129CF3;
-    font-size: 60px;
-
-
-}
-
-.counter-item h2 {
-    font-family: "Source Sans Pro", sans-serif;
-    color: #D7DADB;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 25px;
-    margin-top: 15px;
-    margin-bottom: 1px;
-}
-
-.counter-item p {
-    color: #D7DADB;
-    font-size: 20px;
-    margin-top: 0px;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-family: "Source Sans Pro", sans-serif;
-}
-
-
 /*====== ====================download==========================*/
 
 .download-now {
@@ -615,6 +565,10 @@ p {
 }
 
 /*============ form ==========*/
+.section-title > #warning{
+    text-align: center;
+    color: red;
+}
 
 .contact-us-form .form-control {
 
@@ -637,7 +591,7 @@ p {
     -webkit-transition: all 1s;
 }
 
-#meesage {
+#message {
     height: 117px;
     resize: none;
 
