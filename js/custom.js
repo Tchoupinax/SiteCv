@@ -48,7 +48,7 @@ $(function () {
 
     'use strict';
 
-    $('.nav-item, #scroll-to-top').click(function () {
+    $('.nav-item, #down, #scroll-to-top').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
             location.hostname == this.hostname) {
 
@@ -62,6 +62,8 @@ $(function () {
             }
         }
     });
+    
+
 });
 
 
